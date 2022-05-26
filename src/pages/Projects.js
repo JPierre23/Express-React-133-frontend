@@ -12,6 +12,7 @@ function Projects(props) {
     const data = await response.json();
     // set the projects state to the data
     setProjects(data);
+    console.log(data);
   };
 
   // make an initial call for the data inside a useEffect, so it only happens once on component load
@@ -21,7 +22,7 @@ function Projects(props) {
 
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
-    return projects.map((project,index) => (
+    return (projects.map((project,index) => (
           <div key={index}>
         <h1>{project.name}</h1>
         <img src={project.image} alt={project.name}/>
@@ -32,7 +33,8 @@ function Projects(props) {
           <button>live site</button>
         </a>
       </div>
-    ));
+    ))
+    )
   };
 
   return projects ? loaded() : <h1>Loading...</h1>;
