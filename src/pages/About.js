@@ -14,6 +14,7 @@ function About(props) {
     const data = await response.json();
     // set the about state to the data
     setAbout(data);
+    console.log(data);
   }catch(err){console.log(err)}};
 
   // make an initial call for the data inside a useEffect, so it only happens once on component load
