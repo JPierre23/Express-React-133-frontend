@@ -70,3 +70,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # Express-react-222
 # Express-React-133-frontend
+| Field | Detail |
+|--------|-----|
+| Project Name | Express React Lab frontend|
+| Description | Mock Portfolio site.|
+| Developers | Jonathan Pierre |
+| Live Website | https://main--express-reacts.netlify.app/ |
+| Repo |  https://github.com/JPierre23/Express-React-133-frontend|
